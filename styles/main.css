@@ -1,0 +1,54 @@
+
+.bg-primary {
+    background-color: #0475ba !important;
+}
+
+#presentation {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#presentation h2 {
+    color:#0475ba;
+}
+
+.block {
+    margin: 30px;
+    text-align: center;
+}
+
+#presentation img {
+    border-radius: 300px;
+    margin: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+@media all and (max-width: 400px){
+    /* #presentation img {
+        border-radius: 300px;
+        margin: 30px;
+        width: 60%
+    } */
+    body {
+        font-size:x-small;
+    }
+    footer a{
+        font-size:x-small;
+    }
+}
+
+#experience h3, #passion h3 {
+    color:#0475ba;
+}
+
+footer a {
+    color: white;
+    font-size: small !important;
+}
+
+/* footer div{
+    margin: 0px 100px 0px 0px;
+} */
